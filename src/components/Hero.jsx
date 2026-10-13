@@ -1,3 +1,6 @@
+import AuthButton from "./AuthButton";
+import GetStartedButton from "./GetStartedButton";
+
 function Hero() {
     return (
       <header
@@ -26,12 +29,16 @@ function Hero() {
             Kavya<span className="text-cyan-400">Labs</span>
           </a>
   
-          <a
-            href="#features"
-            className="text-sm font-medium text-slate-300 transition hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400"
-          >
-            Features
-          </a>
+          <div className="flex items-center gap-5">
+            <a
+              href="#features"
+              className="text-sm font-medium text-slate-300 transition hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400"
+            >
+              Features
+            </a>
+
+            <AuthButton />
+          </div>
         </nav>
   
         {/* Hero content */}
@@ -56,12 +63,7 @@ function Hero() {
             </p>
   
             <div className="mt-9 flex flex-col gap-4 sm:flex-row">
-            <button
-  type="button"
-  className="inline-flex items-center justify-center rounded-xl bg-cyan-400 px-6 py-3.5 text-sm font-semibold text-slate-950 shadow-lg shadow-cyan-400/20 transition hover:-translate-y-0.5 hover:bg-cyan-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
->
-  Join the Waitlist
-</button>
+            <GetStartedButton />
   
               <a
                 href="#features"
