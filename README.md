@@ -9,70 +9,74 @@ The project was delivered incrementally across three weekly briefs:
 ### Week 1 — Landing Page
 
 - Responsive Kavya Labs landing page
-
 - Hero section
-
 - Features section
-
 - Product interface preview
-
 - Footer
-
 - Responsive design
 
 ### Week 2 — Authentication
 
 - Google OAuth authentication using Auth.js / NextAuth
-
 - Persistent JWT sessions
-
 - Protected dashboard
-
 - Sign in and sign out functionality
-
 - Authenticated user profile display
+
+
+
+### Week 3 — Task Management Dashboard
+
+- Authenticated user task dashboard at `/dashboard`
+
+- Create persistent tasks
+
+- View personal tasks
+
+- Mark tasks as completed or pending
+
+- Delete tasks
+
+- Task statistics for total, completed, and pending tasks
+
+- Per-user task isolation using the authenticated user identity
+
+- Supabase-backed task persistence
+
+- Task changes persist across page refreshes
+
+- Server-side ownership checks for update and delete operations
+
+
 
 ### Week 3 — Admin Dashboard
 
 - Admin-only protected `/admin` route
-
 - Supabase-backed persistent user data
-
 - Platform analytics
-
 - User management table
-
 - Search and sortable columns
-
 - Active/Inactive filtering
-
 - Enable and disable user accounts
-
 - Persistent management actions
-
 - Recent activity/audit log
-
 - CSV user export
-
 - Loading and error states
-
 - Responsive admin interface
+
+
 
 ## Tech Stack
 
 - Next.js
-
 - React
-
 - Tailwind CSS
-
 - Auth.js / NextAuth
-
 - Google OAuth
-
 - Supabase
-
 - Vercel
+
+
 
 ## Admin Access
 
@@ -145,6 +149,8 @@ Create a production build:
 npm run build
 
 ```
+
+
 
 ## Deployment
 
